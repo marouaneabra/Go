@@ -22,15 +22,12 @@ apt-cache show golang | less
 
 ```
 export GOPATH=/home/ubuntu/workspace/go
+export PATH=$PATH:$GOPATH/bin
 ```
 #### Retrieve GOPATH
 
 ```
 echo $GOPATH
-```
-
-```
-export PATH=$PATH:$GOPATH/bin
 ```
 
 ### Create Hello World Program using this repo as a domain
