@@ -48,3 +48,21 @@ go install marouaneabra.github.io/Go/helloworld
 ```
 helloworld
 ```
+
+OR
+
+```
+go run hello.go
+```
+
+Make executable
+
+```
+go build hello.go
+```
+
+Run it
+
+```
+./hello
+```
